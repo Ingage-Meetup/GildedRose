@@ -66,3 +66,53 @@ MIT
 This work is by [@TerryHughes](https://twitter.com/TerryHughes), [@NotMyself](https://twitter.com/NotMyself)
 
 The repository can be found at [https://github.com/NotMyself/GildedRose](https://github.com/NotMyself/GildedRose)
+
+
+# Readme from the GE Fork
+
+# Gilded Rose Kata
+
+This Kata was originally created by Terry Hughes (http://twitter.com/TerryHughes). It is already on GitHub [here](https://github.com/NotMyself/GildedRose). See also [Bobby Johnson's description of the kata](http://iamnotmyself.com/2011/02/13/refactor-this-the-gilded-rose-kata/).
+
+Test fixtures for Text-Based approval testing with TextTest (see [the TextTests](https://github.build.ge.com/Aviation-Dev-Chapter/gilded-rose/tree/master/texttests))
+
+As Bobby Johnson points out in his article ["Why Most Solutions to Gilded Rose Miss The Bigger Picture"](http://iamnotmyself.com/2012/12/07/why-most-solutions-to-gilded-rose-miss-the-bigger-picture), it'll actually give you
+better practice at handling a legacy code situation.
+
+Here's a good article on writing tests for Gilded Rose ["Writing Good Tests for the Gilded Rose Kata"](http://coding-is-like-cooking.info/2013/03/writing-good-tests-for-the-gilded-rose-kata/) about how you could use this kata in a [coding dojo](https://leanpub.com/codingdojohandbook).
+
+## How to use this Kata
+
+The simplest way is to just clone the code and start hacking away improving the design. You'll want to look at the ["Gilded Rose Requirements"](https://github.build.ge.com/Aviation-Dev-Chapter/gilded-rose/blob/master/GildedRoseRequirements.txt) which explains what the code is for. I strongly advise you that you'll also need some tests if you want to make sure you don't break the code while you refactor.
+
+You could write some unit tests yourself, using the requirements to identify suitable test cases. I've provided a failing unit test in a popular test framework as a starting point for most languages.
+
+Whichever testing approach you choose, the idea of the exercise is to do some deliberate practice, and improve your skills at designing test cases and refactoring. The idea is not to re-write the code from scratch, but rather to practice designing tests, taking small steps, running the tests often, and incrementally improving the design.
+
+## If You're Stuck...
+
+If you're stuck and you need a little help, feel free to post in the **dev-chapter** channel in DTS Chat on Slack and someone from the team will be able to help you out.
+
+### Java
+
+You can switch to **jakes_branch** or **neils_branch** for varying Java solutions, but please try your best as this is a learning exercise and you won't be graded on your solution!
+
+```
+git checkout jakes_branch
+```
+or
+```
+git checkout neils_branch
+```
+
+### JavaScript
+
+You can switch to **jose_branch** or **patricks_branch** for varying JavaScript solutions, but please try your best as this is a learning exercise and you won't be graded on your solution!
+
+```
+git checkout jose_branch
+```
+or
+```
+git checkout patricks_branch
+```
