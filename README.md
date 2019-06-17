@@ -89,31 +89,3 @@ The simplest way is to just clone the code and start hacking away improving the 
 You could write some unit tests yourself, using the requirements to identify suitable test cases. I've provided a failing unit test in a popular test framework as a starting point for most languages.
 
 Whichever testing approach you choose, the idea of the exercise is to do some deliberate practice, and improve your skills at designing test cases and refactoring. The idea is not to re-write the code from scratch, but rather to practice designing tests, taking small steps, running the tests often, and incrementally improving the design.
-
-## If You're Stuck...
-
-If you're stuck and you need a little help, feel free to post in the **dev-chapter** channel in DTS Chat on Slack and someone from the team will be able to help you out.
-
-### Java
-
-You can switch to **jakes_branch** or **neils_branch** for varying Java solutions, but please try your best as this is a learning exercise and you won't be graded on your solution!
-
-```
-git checkout jakes_branch
-```
-or
-```
-git checkout neils_branch
-```
-
-### JavaScript
-
-You can switch to **jose_branch** or **patricks_branch** for varying JavaScript solutions, but please try your best as this is a learning exercise and you won't be graded on your solution!
-
-```
-git checkout jose_branch
-```
-or
-```
-git checkout patricks_branch
-```
